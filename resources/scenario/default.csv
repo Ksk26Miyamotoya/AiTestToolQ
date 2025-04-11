@@ -1,0 +1,6 @@
+操作ID,操作タイプ,対象要素,入力値,待機時間,説明,Excel出力
+1,URL移動,/login,,2,ログインページに移動,yes
+2,テキスト入力,#username,${user.username},,ユーザー名を入力,no
+3,テキスト入力,#password,${user.password},,パスワードを入力,no
+4,クリック,#login-button,,,ログインボタンをクリック,yes
+5,アサート,#welcome-message,,,ログイン成功の確認,yes

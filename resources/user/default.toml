@@ -1,0 +1,15 @@
+# AiTestToolQ ユーザー設定
+
+# ユーザーリスト
+[[users]]
+basic_auth_username = "testuser1"  # Basic認証ユーザー名
+basic_auth_password = "testpass1"  # Basic認証パスワード
+app_username = "testapp1"  # アプリケーションログインユーザー名
+app_password = "testapppass1"  # アプリケーションログインパスワード
+
+# 必要に応じて追加ユーザーを定義
+# [[users]]
+# basic_auth_username = "testuser2"
+# basic_auth_password = "testpass2"
+# app_username = "testapp2"
+# app_password = "testapppass2"

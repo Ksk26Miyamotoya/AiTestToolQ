@@ -1,0 +1,39 @@
+# AiTestToolQ 設定ファイル
+# Basic認証サイトへの同時アクセステストが可能なツール
+
+# 設定ファイルのパス
+url_config = "resources/url/default.toml"  # URL設定ファイルのパス
+user_config = "resources/user/default.toml"  # ユーザー設定ファイルのパス
+scenario_config = "resources/scenario/default.csv"  # シナリオファイルのパス
+
+# 実行設定
+slow_mode = false  # 遅延モード（デバッグ用）
+action_delay = 1.5  # アクション間の遅延時間（秒）
+timeout = 30  # 要素待機のタイムアウト（秒）
+retry_count = 3  # 失敗時のリトライ回数
+
+# ブラウザ設定
+browser = "chrome"  # 使用するブラウザ（"chrome", "firefox", "edge", "safari"）
+test_mode = false  # テストモード（ブラウザを表示する）
+
+# スクリーンショット設定
+# 撮影タイミング: "before_action"（アクション前）, "after_action"（アクション後）, "on_error"（エラー時）
+# 複数設定した場合、指定したすべてのタイミングでスクリーンショットが撮影されます
+screenshot_timing = ["before_action", "after_action", "on_error"]
+
+# Excelレポート設定
+report_title = "テスト結果報告書"        # レポートのタイトル
+company_name = "タイトル"          # 会社名
+project_name = "プロジェクト"      # プロジェクト名
+zoom_scale = 50                          # スクリーンショットシートの表示倍率（%）
+include_timestamp = true                 # レポートにタイムスタンプを含めるか
+timestamp_format = "%Y-%m-%d %H:%M:%S"   # タイムスタンプのフォーマット
+header_bg_color = "#4472C4"              # ヘッダー背景色
+header_font_color = "#FFFFFF"            # ヘッダーフォント色
+alt_row_color = "#E6F0FF"                # 交互行の背景色
+success_color = "#C6EFCE"                # 成功セルの背景色
+failure_color = "#FFC7CE"                # 失敗セルの背景色
+screenshot_title_cell_color = "#ffebcd"  # スクリーンショットシートのタイトル部分の背景色
+
+# デバッグ設定
+debug_mode = false  # デバッグモード（詳細なログ出力）
