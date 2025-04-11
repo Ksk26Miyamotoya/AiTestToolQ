@@ -1,0 +1,74 @@
+# 仮想環境
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# テスト出力
+output/
+
+# IDE関連
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+.tmp/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS固有のファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 設定ファイルのバックアップ
+*.bak
+*~
