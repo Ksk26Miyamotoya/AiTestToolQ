@@ -1,0 +1,14 @@
+# テスト用ユーザー設定
+
+# ユーザーリスト
+[[users]]
+basic_auth_username = ""  # Basic認証ユーザー名
+basic_auth_password = ""  # Basic認証パスワード
+app_username = "test_user1"  # アプリケーションログインユーザー名
+app_password = "test_pass1"  # アプリケーションログインパスワード
+
+[[users]]
+basic_auth_username = ""  # Basic認証ユーザー名
+basic_auth_password = ""  # Basic認証パスワード
+app_username = "test_user2"  # アプリケーションログインユーザー名
+app_password = "test_pass2"  # アプリケーションログインパスワード

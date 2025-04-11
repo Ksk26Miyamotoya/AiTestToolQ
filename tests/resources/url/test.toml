@@ -1,0 +1,2 @@
+# テスト用URL設定
+url = "http://localhost:8080"  # テスト用のベースURL
