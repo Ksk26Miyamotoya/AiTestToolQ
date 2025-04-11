@@ -1,0 +1,14 @@
+selenium>=4.10.0
+webdriver-manager>=4.0.0
+tomlkit>=0.11.0
+openpyxl>=3.1.2
+PyQt6>=6.5.0
+PyQt6-Qt6>=6.5.0
+PyQt6-sip>=13.5.0
+
+# テスト用パッケージ
+pytest>=7.4.0
+pytest-mock>=3.11.1
+pytest-cov>=4.1.0
+pytest-xdist>=3.3.1  # 並列テスト実行
+pytest-html>=4.0.0   # HTMLレポート生成
